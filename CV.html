@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="main">
+    <div class="head">
+    <!--    profile photo-->
+        <div class="head-img">
+            <img src="P2.jpg" class="head-img-photo" alt="">
+        </div>
+        <!--    -->
+        <div class="head-info">
+            <h1>Kun Zuo</h1>
+            <h2>Programmer</h2>
+        </div>
+</div>
+    <div class="body">
+<!--        personal skills-->
+        <div class="body-left">
+            <div class="body-left-title">
+                <div class="body-left-title-tag"></div>
+                <div class="body-left-title-info">Personal Skills</div>
+            </div>
+            <div class="body-left-content">
+                <ul>
+                    <li>
+                        java
+                    </li>
+                    <li>
+                        javascript
+                    </li>
+                    <li>
+                        vue
+                    </li>
+                    <li>
+                        react
+                    </li>
+                </ul>
+            </div>
+        </div>
+<!--        personal experience-->
+        <div class="body-right">
+            <div class="body-right-title">
+                <div class="body-right-title-tag"></div>
+                <div class="body-right-title-info">Personal Experience</div>
+            </div>
+            <div class="body-right-content">
+                <div>
+                    I worked as a programmer at Beijing Csii Software Co., Ltd., where I was responsible for several important development tasks during my tenure. I also served as a team leader, organizing colleagues to develop independent software projects. I have more than two years of development experience.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<style>
+    .main{
+        background: aliceblue;
+        width: 100vw;
+        height: 100vh;
+    }
+    .head{
+        width: 100%;
+        height: 400px;
+        background: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        .head-img{
+            margin: 50px 0px auto 400px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 1px solid black;
+            .head-img-photo{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+        }
+        .head-info{
+            margin: 50px 400px auto auto;
+            font-family: helvetica;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    .body{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: cornflowerblue;
+    }
+        .body-left{
+            margin-top: 20px;
+            .body-left-title{
+                width: 600px;
+                background: azure;
+                display: flex;
+                flex-direction: row;
+                border-radius: 10px;
+                justify-content: left;
+                align-items: center;
+                .body-left-title-tag{
+                    width: 5px;
+                    height: 16px;
+                    margin: 0px 10px;
+                    background: cornflowerblue;
+                }
+            }
+            .body-left-content{
+                color: crimson;
+            }
+        }
+        .body-right{
+            margin-top: 20px;
+            .body-right-title{
+                width: 600px;
+                background: azure;
+                display: flex;
+                flex-direction: row;
+                border-radius: 10px;
+                justify-content: left;
+                align-items: center;
+                .body-right-title-tag{
+                    width: 5px;
+                    height: 16px;
+                    margin: 0px 10px;
+                    background: cornflowerblue;
+                }
+            }
+            .body-right-content{
+                width: 600px;
+                padding: 15px;
+            }
+    }
+</style>
